@@ -74,21 +74,21 @@
 }
 
 .bonus-1 {
-  background-image: url(./Telegram.png); background-size: contain;
+  background-image: url(.../../../public/Telegram.png); background-size: contain;
   background-repeat: no-repeat;
 }
 .bonus-2 {
-  background-image: url(./Exercicio.png);
+  background-image: url(.../../../public/Exercicio.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
 .bonus-3 {
-  background-image: url(./Estudo.png);
+  background-image: url(.../../../public/Estudo.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
 .bonus-4 {
-  background-image: url(./Produtividade.png);
+  background-image: url(.../../../public/Produtividade.png);
   background-size: contain;
   background-repeat: no-repeat;
 }

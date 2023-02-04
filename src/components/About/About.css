@@ -6,7 +6,8 @@
   color: #fff;
   width: 100vw;
   border-radius: 70px 70px 0 0;
-  background-image: url(./BG.jpg);
+  /* background-image: url(./BG.jpg); */
+  background-image: url(../../../public/BG.png);
 }
 
 #about h2 {
