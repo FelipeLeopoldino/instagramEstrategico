@@ -6,7 +6,7 @@
   width: 100vw;
   background-color: #bb2649;
   border-radius: 5rem;
-  background-image: url(./BG.jpg);
+  background-image: url(../../../public/BG.jpg);
 }
 
 #cronograma h2 {
