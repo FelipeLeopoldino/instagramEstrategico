@@ -6,8 +6,8 @@ export default function DataEncontro(){
     <div class="text-section">
       <h2>Encontros ao vivo nos dias:</h2>
       <p>
-        1°,8,15 de Fevereiro ás 20h com no
-        <b>mínimo 2 horas de duração,</b>separe esse tempo para
+        1°,7,15 de Março ás 20h com no
+        <b> mínimo 2 horas de duração,</b>separe esse tempo para
         <b>revolucionar</b> o seu modo de enxergar a internet.
       </p>
       <br />
