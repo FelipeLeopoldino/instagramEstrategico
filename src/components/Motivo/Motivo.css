@@ -1,0 +1,59 @@
+#motivo {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 3rem;
+}
+
+#motivo h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  color: #bb2649;
+}
+
+#motivo p {
+  display: flex;
+  justify-content: flex-start;
+  text-align: start;
+  color: #fff;
+  background-color: #bb2649;
+  margin-top: 1rem;
+  width: 53rem;
+  font-size: 24px;
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  #motivo {
+    margin: 1rem;
+  }
+
+  #motivo h2 {
+    font-size: 24px;
+  }
+
+  #motivo p {
+    font-size: 20px;
+    width: 40rem;
+  }
+}
+@media (max-width: 425px) {
+  #motivo {
+    margin: 1rem;
+  }
+
+  #motivo h2 {
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  #motivo p {
+    text-align: center;
+    font-size: 20px;
+    width: 25rem;
+  }
+}

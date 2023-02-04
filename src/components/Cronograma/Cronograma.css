@@ -1,0 +1,183 @@
+#cronograma {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  background-color: #bb2649;
+  border-radius: 5rem;
+  background-image: url(./BG.jpg);
+}
+
+#cronograma h2 {
+  color: #fff;
+  font-size: 50px;
+  margin: 2rem;
+}
+
+.encontros {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  width: 50rem;
+  border-radius: 1rem;
+  color: #bb2649;
+  margin-bottom: 2rem;
+}
+
+.dia {
+  margin-top: 3rem;
+  font-size: 100px;
+  font-family: 'Londrina Outline', cursive;
+}
+
+.mes {
+  position: relative;
+  font-size: 50px;
+  bottom: 5.5rem;
+  font-weight: bold;
+}
+
+.conteudo {
+  width: 22rem;
+}
+
+#cronograma li {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+#bonus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.bonus-1,
+.bonus-2,
+.bonus-3,
+.bonus-4 {
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
+  flex-direction: column;
+  color: #bb2649;
+  background-size: cover;
+  width: 50rem;
+  height: 13.5rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  border-radius: 0 30px 30px 0;
+}
+
+.bonus-1 {
+  background-image: url(./Telegram.png); background-size: contain;
+  background-repeat: no-repeat;
+}
+.bonus-2 {
+  background-image: url(./Exercicio.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.bonus-3 {
+  background-image: url(./Estudo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.bonus-4 {
+  background-image: url(./Produtividade.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bonus-1 h4,
+.bonus-2 h4,
+.bonus-3 h4,
+.bonus-4 h4 {
+  font-size: 30px;
+  margin-top: 2rem;
+  margin-left: 3rem;
+  margin-bottom: 1rem;
+}
+
+.bonus-1 p,
+.bonus-2 p,
+.bonus-3 p,
+.bonus-4 p {
+  display: flex;
+
+  align-items: center;
+  width: 30rem;
+  margin-left: 3rem;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  #cronograma {
+    margin: 0 auto;
+  }
+  
+  .bonus-1,
+  .bonus-2,
+  .bonus-3,
+  .bonus-4 {
+    width: 45rem;    
+    margin: 0;
+  }
+  .bonus-1 p,
+  .bonus-2 p,
+  .bonus-3 p,
+  .bonus-4 p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 425px) {
+  .encontros {
+    display: flex;
+    text-align: center;    
+    flex-direction: column;
+    width: 30rem;
+    
+  }
+ .conteudo ol {
+    margin-left: 2rem;
+  }
+ #cronograma h2{
+  font-size: 32px;
+ }
+ .bonus-1,
+ .bonus-2,
+ .bonus-3,
+ .bonus-4 {
+  position: a;
+   width: 25rem;    
+   height: 10rem;
+   margin: 0;
+ }
+
+ .bonus-1 p,
+  .bonus-2 p,
+  .bonus-3 p,
+  .bonus-4 p {
+   
+
+    visibility: hidden;
+  }
+ .bonus-1 h4,
+  .bonus-2 h4,
+  .bonus-3 h4,
+  .bonus-4 h4 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 22px;
+   margin-left: 0;
+   padding-left: 1.2rem;
+
+  }
+}

@@ -1,0 +1,62 @@
+#compra {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #bb2649;
+  padding: 3rem;
+  width: 100vw;
+  flex-direction: column;
+  border-radius: 70px;
+  background-image: url(./BG.jpg);
+}
+
+#compra h2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #fff;
+  color: #bb2649;
+  width: 40rem;
+  padding: 2rem;
+  border-radius: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#compra p {
+  display: flex;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  width: 38rem;
+  color: #fff;
+  font-size: 24px;
+}
+
+.valor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  margin-top: 1rem;
+}
+
+.valor h3 {
+  font-size: 50px;
+}
+
+.valor p {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+
+@media (max-width: 425px){
+  #compra h2{
+    font-size: 18px;
+    width: 25rem;
+  }
+
+  #compra p{
+    width: 25rem;
+  }
+}
