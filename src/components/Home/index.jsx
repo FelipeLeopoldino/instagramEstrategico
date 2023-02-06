@@ -9,14 +9,18 @@ export default function Home() {
         </div>
         <div className="text-main">
           <p>
-            Está na hora de ser visto na 
+            Está na hora de ser visto na
             <b> maior vitrine do mundo</b>, nos vamos te mostrar os pontos chave
             para você estruturar suas redes sociais e produzir conteúdos de alto
             nível.
           </p>
         </div>
         <div>
-          <button className="btn">GARANTIR MINHA VAGA</button>
+          <button className="btn">
+            <a href="https://p.eduzz.com/1769905" target="_blank">
+              GARANTIR MINHA VAGA
+            </a>
+          </button>
         </div>
       </div>
       <div className="img-main">

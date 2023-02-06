@@ -20,7 +20,11 @@ export default function Compra() {
         valor de uma pizza por mês!
       </p>
 
-      <button class="btn">GARANTIR MINHA VAGA</button>
+      <button className="btn">
+        <a href="https://p.eduzz.com/1769905" target="_blank">
+          GARANTIR MINHA VAGA
+        </a>
+      </button>
     </section>
   )
 }
