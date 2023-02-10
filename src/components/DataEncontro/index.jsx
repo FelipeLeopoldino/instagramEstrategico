@@ -3,7 +3,7 @@ import './DataEncontro.css'
 export default function DataEncontro(){
   return (
     <section id="data-encontros">
-    <div class="text-section">
+    <div className="text-section">
       <h2>Encontros ao vivo nos dias:</h2>
       <p>
         1°,7,15 de Março ás 20h com no
@@ -16,7 +16,7 @@ export default function DataEncontro(){
         muito <b>desenvolvimento e aprendizado</b> exclusivo para você.
       </p>
     </div>
-    <div class="img-calendario">
+    <div className="img-calendario">
       <img src="./CALENDARIO.png" alt="imagem de um calendario" />
     </div>
   </section>

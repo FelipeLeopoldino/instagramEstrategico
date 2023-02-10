@@ -10,7 +10,7 @@ export default function Compra() {
           2023, está POR APENAS:
         </h2>
       </div>
-      <div class="valor">
+      <div className="valor">
         <h3>12x de R$14,70</h3>
         <p>ou R$147,00 à vista</p>
       </div>

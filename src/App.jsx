@@ -7,7 +7,7 @@ import Motivo from './components/Motivo'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{display:'inline'}}>
       <Home />
       <DataEncontro />
       <Cronograma />
